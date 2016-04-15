@@ -1,5 +1,4 @@
-var express = require('express');
-var app = express();
+var app = require('express')();
 
 // Mapping routes
 var routes = require('./lib/routes');

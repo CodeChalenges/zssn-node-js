@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "waterline": "^0.12.1",
+    "waterline-postgresql": "^0.14.6"
   },
   "devDependencies": {},
   "scripts": {
