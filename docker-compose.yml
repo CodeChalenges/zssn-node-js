@@ -1,0 +1,14 @@
+app:
+  image: monostream/nodejs-express
+  working_dir: /root/app
+  volumes:
+    - ./:/root/app
+  ports:
+    - "8081:8081"
+  links:
+    - db
+
+db:
+  image: postgres
+  ports:
+    - "5432:5432"
