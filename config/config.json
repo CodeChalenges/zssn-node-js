@@ -4,14 +4,14 @@
     "password": "db",
     "database": "database_development",
     "host": "db",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "db",
     "database": "database_test",
     "host": "db",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "production": {
     "username": "root",
